@@ -1,2 +1,2 @@
 # react-webpack-boilerplate
-Future boilerplate/practice for React Webpack build
+Boilerplate/practice for React Webpack build for future use
