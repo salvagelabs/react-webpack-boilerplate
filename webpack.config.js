@@ -19,8 +19,7 @@ module.exports = {
   module: {
     loaders: [
       { test: /\.js$/, loader: 'babel-loader', exclude: /node_modules/, query: { presets:['react'] } },
-      { test: /\.jsx$/, loader: 'babel-loader', exclude: /node_modules/, query: { presets:['react'] } },
-      { test: /\.scss$/, exclude: /node_modules/, loaders: ['style-loader', 'css-loader', 'sass-loader'] }
+      { test: /\.jsx$/, loader: 'babel-loader', exclude: /node_modules/, query: { presets:['react'] } }
     ]
   },
   plugins: [HtmlWebpackPluginConfig]
